@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Survey</a>
+    </nav>
+    <fieldset class="one">
+    <main>
+    <h1>Survey</h1>
+      <p class="title-text">Please complete this form with the required information</p>
+    </main>
+
+ <--Personal Information-->
+
+    <fieldset>
+      <legend>Personal Information</legend>
+    <div>
+      <p class="inline">First Name<br><input type="text" required></p>
+      <p class="inline">Last Name<br><input type="text" required></p>
+      <p class="inline">Email<br><input type="email" required></p>
+       <p class="inline">Phone Number (Optional)<br><input type="text"></p>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>Was this information helpful?</legend>
+<label for="yes"><input id="yes" type="radio" name="helpful-info" value="1" checked /> Yes</label>
+<label for="no"><input id="no" type="radio" name="helpful-info" value="2"/> No</label>
+</div>
+</fieldset>
+</fieldset>   
+  </body>
+  
+</html>
